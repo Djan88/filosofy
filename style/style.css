@@ -1,0 +1,33 @@
+.content
+{
+    width: 1240px;
+    border: 1px solid red;
+    margin: auto;
+    font: 12px arial
+}
+/*HEADER*/
+.logo
+{
+    margin: 0 0 0 0;
+    display: block;
+    text-decoration: none;
+    width: 200px;
+    color: #084595;
+}
+.logo img
+{
+    float: left;
+}
+.logo__text
+{
+    float: left;
+    margin: 0 0 0 15px;
+    font-size: 17px;
+}
+.logo__slogan
+{
+    clear: both;
+    font-style: italic;
+    font-size: 15px;
+    color: #808080;
+}
