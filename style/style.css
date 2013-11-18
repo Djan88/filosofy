@@ -1,18 +1,63 @@
-.content
+ul
 {
-    width: 1240px;
-    border: 1px solid red;
-    margin: auto;
-    font: 12px arial
+    list-style: none;
+    margin:0;
+    padding: 0;
 }
-/*HEADER*/
+img
+{
+    border: 0;
+    outline: 0;
+}
+a
+{
+    color: #114A93;
+}
+.inner
+{
+    width: 960px;
+    margin: auto;
+    font: 13px arial
+}
+.shadow
+{
+    position: relative;
+    padding: 0 0 15px;
+}
+.shadow:after
+{
+    content: '';
+    height: 15px;
+    width: 100%;
+    background: #808080;
+    background: radial-gradient(ellipse farthest-side at 50% 0, rgba(0,90,166,.2) 0%, rgba(0,0,0,0) 100%);
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.header, .content, .products__lists, .news__blocks, .contacts__item, .socials, .pagination
+{
+    white-space: nowrap;
+}
+.header__col, .content__item, .products__list, .news__item, .contacts__map, .contacts__info, .socials__item, .socials__description, .pagination__item
+{
+    white-space: normal;
+    vertical-align: top;
+    display: inline-block;
+}
+.header__col
+{
+    margin-bottom: 45px;
+}
 .logo
 {
     margin: 0 0 0 0;
-    display: block;
     text-decoration: none;
     width: 200px;
-    color: #084595;
+    color: #114A93;
+    padding-left: 30px;
 }
 .logo img
 {
@@ -28,6 +73,196 @@
 {
     clear: both;
     font-style: italic;
-    font-size: 15px;
+    font-size: 12px;
     color: #808080;
+    padding-top: 18px;
+}
+.phones
+{
+    color: #808080;
+    margin: 0 0 45px 330px;
+    width: 50%;
+}
+.phones .phones__title, .phones .phones__elem
+{
+    margin-top: 5px;
+}
+.phones__elem
+{
+    font-size: 20px;
+}
+.phones__number
+{
+    color: #000;
+}
+.content img
+{
+    border-radius: 10px;
+}
+.content__title
+{
+    width: 25%;
+    font-size: 28px;
+    font-weight: normal;
+    padding-left: 30px;
+}
+.content__info
+{
+    width: 71.5%;
+}
+.content__item
+{
+    margin: 35px 0 35px;
+}
+.about__description
+{
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 20px;
+}
+.pagination
+{
+    position: relative;
+    top: 10px;
+    left: 89%;
+    display: inline-block;
+    cursor: default;
+}
+.pagination__item
+{
+    width: 5px;
+    height: 5px;
+    margin: 0 1px 0 1px;
+    border: 2px solid #808080;
+    border-radius: 50%;
+    cursor: pointer;
+    vertical-align: middle;
+}
+.pagination__item:hover
+{
+    width: 7px;
+    height: 7px;
+    border-color: #092392;
+    margin: 0;
+}
+.products__title
+{
+    margin: 25px 0 25px;
+    font-size: 18px;
+}
+.products__item
+{
+    margin: 5px 0 5px;
+}
+.products__link
+{
+    text-decoration: none;
+    color: #272727;
+    font-size: 13px;
+}
+.products__link:before
+{
+    content: '';
+    border: 1px solid #979c90;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    margin: 0 10px 2px 0;
+    display: inline-block;
+}
+.products__lists
+{
+    position: relative;
+}
+.products__list
+{
+    width: 35%;
+}
+.call
+{
+    position: absolute;
+    font-size: 14px;
+    bottom: 0;
+    right: 80px;
+}
+.news__item
+{
+    width: 29%;
+    margin-right: 6.4%;
+}
+.news__date
+{
+    color: #808080;
+    font-size: 12px;
+}
+.news__link
+{
+    display: block;
+    margin-top: 10px;
+}
+.contacts__item
+{
+    margin-bottom: 20px;
+}
+.contacts__map
+{
+    margin-right: 5%;
+    height: 120px;
+    width: 205px;
+}
+.contacts__map_simferopol
+{
+    background: url(../img/map-1.png) no-repeat;
+}
+.contacts__map_cerch
+{
+    background: url(../img/map-2.png) no-repeat;
+}
+.contacts__phones
+{
+    margin: 10px 0 10px;
+}
+.contacts__info
+{
+    margin-top: 5px;
+}
+.contacts__site
+{
+    display: block;
+}
+.footer
+{
+    color: #808080;
+}
+.footer img
+{
+    border-radius: 5px;
+}
+.footer__info
+{
+    width: 53%;
+}
+.footer .content__title
+{
+    font-size: 12px;
+}
+.socials__description
+{
+    width: 55%;
+}
+.social__link
+{
+    vertical-align: top;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background: url(../img/socials.png) no-repeat;
+}
+.social__link_fb
+{
+    background-position: -34px 0;
+}
+.social__link_vk
+{
+    background-position: -67px 0;
 }
