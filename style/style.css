@@ -15,7 +15,7 @@ a
 }
 .inner
 {
-    width: 960px;
+    width: 925px;
     margin: auto;
     font: 13px arial
 }
@@ -30,6 +30,7 @@ a
     height: 15px;
     width: 100%;
     background: #808080;
+    background: -webkit-radial-gradient(50% 0, ellipse farthest-side, rgba(0,90,166,.2) 0%, rgba(0,0,0,0) 100%);
     background: radial-gradient(ellipse farthest-side at 50% 0, rgba(0,90,166,.2) 0%, rgba(0,0,0,0) 100%);
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -46,6 +47,10 @@ a
     white-space: normal;
     vertical-align: top;
     display: inline-block;
+}
+.header
+{
+    margin-top: 25px;
 }
 .header__col
 {
@@ -80,8 +85,8 @@ a
 .phones
 {
     color: #808080;
-    margin: 0 0 45px 330px;
-    width: 50%;
+    margin: 0 0 45px 250px;
+    width: 41%;
 }
 .phones .phones__title, .phones .phones__elem
 {
@@ -101,7 +106,7 @@ a
 }
 .content__title
 {
-    width: 25%;
+    width: 20%;
     font-size: 28px;
     font-weight: normal;
     padding-left: 30px;
@@ -109,6 +114,7 @@ a
 .content__info
 {
     width: 71.5%;
+    padding-right: 30px;
 }
 .content__item
 {
@@ -124,7 +130,7 @@ a
 {
     position: relative;
     top: 10px;
-    left: 89%;
+    left: 92%;
     display: inline-block;
     cursor: default;
 }
@@ -183,7 +189,7 @@ a
     position: absolute;
     font-size: 14px;
     bottom: 0;
-    right: 80px;
+    right: 70px;
 }
 .news__item
 {

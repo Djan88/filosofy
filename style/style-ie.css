@@ -1,0 +1,18 @@
+.shadow:after
+{
+    background: url(../img/shadow.png) no-repeat;
+}
+.pagination__item
+{
+    width: 7px;
+    height: 7px;
+    border: none;
+    background: url(../img/paginator.png) no-repeat;
+}
+.pagination__item:hover
+{
+    width: 10px;
+    height: 10px;
+    background: url(../img/paginator-active.png) no-repeat;
+    margin-right: -1px;
+}
