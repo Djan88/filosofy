@@ -124,14 +124,18 @@ a
 {
     font-size: 14px;
     font-style: italic;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
+}
+.carousel
+{
+    display: none;
 }
 .pagination
 {
     position: relative;
     top: 10px;
     left: 92%;
-    display: inline-block;
+    display: none;
     cursor: default;
 }
 .pagination__item
@@ -186,10 +190,10 @@ a
 }
 .call
 {
-    position: absolute;
     font-size: 14px;
-    bottom: 0;
-    right: 70px;
+    display: block;
+    margin: auto;
+    width: 17%;
 }
 .news__item
 {
@@ -234,6 +238,11 @@ a
 }
 .contacts__site
 {
+    display: block;
+}
+.contacts__other
+{
+    font-size: 14px;
     display: block;
 }
 .footer
